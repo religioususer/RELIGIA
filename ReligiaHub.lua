@@ -33,6 +33,9 @@ UnivSection:NewButton("ESP", "... self explanatory", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Roblox-Scripts/main/DaBabyESP.lua", true))()
 end)
 
+UnivSection:NewButton("Fly", "... self explanatory v2", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0i564PvP", true))()
+end)
 
 --MiscSection
 local MiscSection = MainTab:NewSection("Misc")
