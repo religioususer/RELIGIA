@@ -30,7 +30,7 @@ UnivSection:NewButton("Reset Sliders", "... self explanatory", function()
 end)
 
 UnivSection:NewButton("ESP", "... self explanatory", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Roblox-Scripts/main/DaBabyESP.lua", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zV20f3Bk", true))()
 end)
 
 UnivSection:NewButton("Fly", "... self explanatory v2", function()
