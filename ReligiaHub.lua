@@ -37,6 +37,10 @@ UnivSection:NewButton("Fly", "... self explanatory v2", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/0i564PvP", true))()
 end)
 
+UnivSection:NewButton("NahClip", "... self explanatory v2", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/JBpVFq7M", true))()
+end)
+
 --MiscSection
 local MiscSection = MainTab:NewSection("Misc")
 MiscSection:NewButton("Check UI (check desc)", "Press F9 to check. If it doesnt print, something is wrong", function()
