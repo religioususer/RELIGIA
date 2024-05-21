@@ -16,7 +16,7 @@ UnivSection:NewButton("InfJump", "self explanatory", function()
 end)
 end)
 
-UnivSection:NewSlider("WalkSpeed", "bruh", 200, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+UnivSection:NewSlider("WalkSpeed", "bruh", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
